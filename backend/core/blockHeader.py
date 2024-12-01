@@ -1,4 +1,9 @@
-from Blockchain.backend.util.util import twoLayerhash256
+import sys
+import os
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.append(parent_dir)
+from util.util import twoLayerhash256
 class BlockHeader:
     def __init__(self,version,prevBlockHash,merkelRoot,timestamp,bits):
         self.version = version

@@ -1,8 +1,9 @@
+from block import Block
+from blockHeader import BlockHeader
 import sys
-sys.path.append("/home/nziza/Documents/code")
-from Blockchain.backend.core.block import Block
-from Blockchain.backend.core.blockHeader import BlockHeader
-from Blockchain.backend.util.util import twoLayerhash256
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from util.util import twoLayerhash256
 import time
 import json
 
