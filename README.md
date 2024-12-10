@@ -35,7 +35,7 @@ Setting up a virtual environment is recommended to manage dependencies and avoid
     python3 -m venv venv
     venv\Scripts\activate
 
-## Installing Dependencies:**:
+## Installing Dependencies:
     pip install hashlib sys os time json
 
 ## Usage
