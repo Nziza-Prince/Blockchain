@@ -34,12 +34,12 @@ Setting up a virtual environment is recommended to manage dependencies and avoid
    ```bash
     python3 -m venv venv
     venv\Scripts\activate
+   ```
 
 ## Installing Dependencies:
     pip install hashlib sys os time json
 
-## Usage
-
+## Usage :
    -cd backend/core
    -python3 blockchain.py
    
