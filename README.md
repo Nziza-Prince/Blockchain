@@ -12,12 +12,13 @@ This project implements a simple blockchain in Python. It allows users to create
 
 1. **Clone the repository** (if applicable):
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Nziza-Prince/Blockchain
+   cd Blockchain
    ```
 2. **Navigate to the backend/core directory**:
    ```
    cd backend/core
+   python3 blockchain.py
    ```
 ## Usage
 
