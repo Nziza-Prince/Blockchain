@@ -40,6 +40,9 @@ Setting up a virtual environment is recommended to manage dependencies and avoid
     pip install hashlib sys os time json
 
 ## Usage :
-   -cd backend/core
-   -python3 blockchain.py
+   ```bash
+    cd backend/core
+    python3 blockchain.py
+
+   ```
    
