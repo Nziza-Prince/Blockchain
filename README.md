@@ -20,11 +20,6 @@ This project implements a simple blockchain in Python. It allows users to create
    git clone https://github.com/Nziza-Prince/Blockchain
    cd Blockchain
    ```
-2. **Navigate to the backend/core directory**:
-   ```
-   cd backend/core
-   python3 blockchain.py
-   ```
 Setting Up a Virtual Environment
 Setting up a virtual environment is recommended to manage dependencies and avoid conflicts with other Python projects.
 
@@ -39,9 +34,12 @@ Setting up a virtual environment is recommended to manage dependencies and avoid
    ```bash
     python3 -m venv venv
     venv\Scripts\activate
-```
-5. **Installing Dependencies:**:
-   ```bash
+
+5.Installing Dependencies:**:
     pip install hashlib sys os time json
 
-   ```
+## Usage
+
+   -cd backend/core
+   -python3 blockchain.py
+   
